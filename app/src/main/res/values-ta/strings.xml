@@ -30,16 +30,16 @@
     </plurals>
     <string name="file_list_subtitle_separator">,</string>
     <plurals name="file_list_subtitle_directory_count_format">
-        <item quantity="one">%1 $, டி கோப்புறை</item>
-        <item quantity="other">%1 $, டி கோப்புறைகள்</item>
+        <item quantity="one">%1$,d கோப்புறை</item>
+        <item quantity="other">%1$,d கோப்புறைகள்</item>
     </plurals>
     <plurals name="file_list_subtitle_file_count_format">
-        <item quantity="one">%1 $, டி கோப்பு</item>
-        <item quantity="other">%1 $, டி கோப்புகள்</item>
+        <item quantity="one">%1$,d கோப்பு</item>
+        <item quantity="other">%1$,d கோப்புகள்</item>
     </plurals>
     <plurals name="file_list_selected_count_format">
-        <item quantity="one">%1 $, டி தேர்ந்தெடுக்கப்பட்டது</item>
-        <item quantity="other">%1 $, டி தேர்ந்தெடுக்கப்பட்டது</item>
+        <item quantity="one">%1$,d தேர்ந்தெடுக்கப்பட்டது</item>
+        <item quantity="other">%1$,d தேர்ந்தெடுக்கப்பட்டது</item>
     </plurals>
     <plurals name="file_list_delete_count_format">
         <item quantity="one">2 $ s ஐ நீக்கவா?</item>
@@ -49,7 +49,7 @@
     <string name="free_space_format">%s சிபி</string>
     <string name="total_space_format">%s சிபி</string>
     <string name="used_space_format">%s சிபி</string>
-    <string name="space_of_format">இலவச இடம்: %1$s சிபி %2$s சிபி</string>
+    <string name="space_of_format">இலவச இடம்: %1$s சிபி இல் %2$s சிபி</string>
     <string name="pref_key_view_file_information">view_file_information</string>
     <string name="pref_key_file_list_margins">file_list_margins</string>
     <string name="pref_key_transparent_list_background">வெளிப்படையான_லிச்ட்_பேக் மைதானம்</string>
@@ -171,17 +171,17 @@
     <string name="dialog_file_exists">இந்த பெயருடன் ஒரு கோப்பு ஏற்கனவே உள்ளது</string>
     <string name="todo">அனைத்தும்</string>
     <string name="testeeeeeeeee">Teteeeeeeeeeeee</string>
-    <string name="_24_de_mar">மார்ச் 24</string>
+    <string name="_24_de_mar">மார்ச் 24.</string>
     <string name="file_list_select_action_archive">சுருக்க</string>
     <string name="recente">அண்மைக் கால</string>
     <string name="storage">சேமிப்பு</string>
-    <string name="_16_kb">16 கி.பை.</string>
+    <string name="_16_kb">16 கி.பை</string>
     <string name="used_space">பயன்படுத்தப்பட்ட இடம்</string>
     <string name="free_space">வெற்று இடம்</string>
     <string name="gb">சிபி</string>
     <string name="gb_total">128</string>
     <string name="internal_st">உள் சேமிப்பு</string>
-    <string name="policy_and_terms">&lt;! [CDATA [தனியுரிமைக் கொள்கை மற்றும் விதிமுறைகள் மற்றும் நிபந்தனைகள்]]&gt;</string>
+    <string name="policy_and_terms"><![CDATA[தனியுரிமைக் கொள்கை மற்றும் விதிமுறைகள் மற்றும் நிபந்தனைகள்]]></string>
     <string name="ok">சரி</string>
     <string name="allow">இசைவு</string>
     <string name="download">பதிவிறக்கம்</string>
@@ -212,7 +212,7 @@
     </plurals>
     <plurals name="movingItems">
         <item quantity="one">நகரும் %d உருப்படி</item>
-        <item quantity="other">நகரும் %d உருப்படிகள்: %s க்கு %s க்கு நகரும்</item>
+        <item quantity="other">நகரும் %d உருப்படிகள்: %s முதல் %s வரை நகரும்</item>
     </plurals>
     <string name="file_modified_are_you_sure">கோப்பு மாற்றியமைக்கப்பட்டுள்ளது. நீங்கள் உறுதியாக இருக்கிறீர்களா?</string>
     <string name="no">இல்லை</string>
@@ -235,8 +235,8 @@
     <string name="code_editor">குறியீடு ஆசிரியர்</string>
     <string name="save_file_error">கோப்பைச் சேமிப்பதில் பிழை</string>
     <plurals name="an_error_message_occurred">
-        <item quantity="one">%s கோப்பை சேமிக்கும் போது பிழை ஏற்பட்டது</item>
-        <item quantity="other">%s கோப்பை சேமிக்கும் போது %d பிழைகள் ஏற்பட்டன</item>
+        <item quantity="one">%s கோப்பை சேமிக்கும்போது பிழை ஏற்பட்டது</item>
+        <item quantity="other">%d பிழைகள் ஏற்பட்டன %s கோப்பை சேமிக்கும்போது</item>
     </plurals>
     <string name="reply_title">இயல்புநிலை பதில் செயல்</string>
     <plurals name="plurals_file_already_exists">
@@ -253,7 +253,7 @@
         <item quantity="one">S \\ என மறுபெயரிடுதல்</item>
         <item quantity="other">%1$d உருப்படிகளை மறுபெயரிடுதல்</item>
     </plurals>
-    <string name="pref_key_show_fast_scroll">show_fast_scroll</string>
+    <string name="pref_key_show_fast_scroll">வேக_சுருள்_காட்டு</string>
     <string name="pref_key_corner_family">கார்னர்_ -குடும்பம்</string>
     <string name="pref_summary_transparent_list_background">பட்டியலில் உள்ள கோப்புகளின் பின்னணியை வெளிப்படையானதாக அமைக்கவும்.</string>
     <string name="pref_summary_rounded_corners">மென்மையான மற்றும் நவீன தோற்றத்திற்காக இடைமுக கூறுகளுக்கு வட்டமான மூலைகளைச் சேர்க்கவும்.</string>
