@@ -39,7 +39,7 @@
     </plurals>
     <plurals name="file_list_selected_count_format">
         <item quantity="one">%1$,d தேர்ந்தெடுக்கப்பட்டது</item>
-        <item quantity="other">%1$,d தேர்ந்தெடுக்கப்பட்டது</item>
+        <item quantity="other">%1$,d தேர்ந்தெடுக்கப்பட்டன</item>
     </plurals>
     <plurals name="file_list_delete_count_format">
         <item quantity="one">2 $ s ஐ நீக்கவா?</item>
