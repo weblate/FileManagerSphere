@@ -116,7 +116,7 @@
     <string name="header_yesterday">நேற்று</string>
     <string name="install">நிறுவவும்</string>
     <string name="view">பார்வை</string>
-    <string name="unable_to_get_apk_package">APK தொகுப்பைப் பெற முடியவில்லை</string>
+    <string name="unable_to_get_apk_package">பயன்பாடு தொகுப்பைப் பெற முடியவில்லை</string>
     <string name="experimental_trash_can">சோதனை குப்பை முடியும்</string>
     <string name="restore">மீட்டமை</string>
     <string name="trash_is_empty">குப்பை காலியாக உள்ளது</string>
